@@ -31,7 +31,6 @@ cd usenix_demo
 ```sh
 http-server
 ```
-Alternatively, you can use the "Live Server" extension in Visual Studio Code by right-clicking the index.html file and selecting "Open with Live Server."
 
 4. Open your web browser and navigate to the local server address, typically http://localhost:8080/main.html or http://127.0.0.1:8080/main.html.
 
