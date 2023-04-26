@@ -18,13 +18,13 @@ npm install -g http-server
 
 1. Clone this repository to your local machine:
 ```sh
-git clone https://github.com/anonymous100002/demo_project_fsa.git
+git clone https://github.com/anonymous100002/usenix_demo.git
 ```
 
 2. Navigate to the project folder:
 
 ```sh
-cd demo_project_fsa
+cd usenix_demo
 ```
 3. Serve the project using a local web server, such as http-server:
 
