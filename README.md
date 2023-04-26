@@ -1,9 +1,9 @@
 # File System Access API Demo for USENIX Submission - Winter 2023
 
 
-This demo has been developed to address reviewer feedback for our USENIX submission. The purpose of this demo is to demonstrate how the write permission dialog works when using the File System Access API. The application allows the user to modify the content of all .txt files in the directory with a single write permission dialog.
+This demo has been developed in response to reviewer feedback for our USENIX submission. The primary purpose of the demo is to showcase the write permission dialog when using the File System Access API. The application enables users to modify the content of all `.txt` files in a selected directory using a single write permission dialog.
 
-We hope that this demo provides a clear and practical example and clarifies the our reviewers' comments. 
+Our aim is to provide a clear and practical example that addresses the concerns raised by our reviewers.
 
 ## Prerequisites
 
