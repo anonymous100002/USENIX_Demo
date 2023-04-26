@@ -4,14 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>File System Access API Demo</title>
-    <!-- Add basic CSS styling -->
+    <!-- Embedded CSS -->
     <style>
+        /* General styles */
         body {
             font-family: Arial, sans-serif;
             max-width: 800px;
             margin: 0 auto;
         }
-        button {
+
+        /* Header styles */
+        .header {
+            margin-bottom: 1.5rem;
+        }
+
+        .header__title {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Button styles */
+        .button {
             background-color: #007BFF;
             border: none;
             color: white;
@@ -24,18 +37,28 @@
             cursor: pointer;
             border-radius: 4px;
         }
-        button:hover {
+
+        .button--primary:hover {
             background-color: #0056B3;
+        }
+
+        /* File list styles */
+        .file-list {
+            margin-top: 1rem;
+            padding-left: 0;
+            list-style: none;
         }
     </style>
 </head>
 <body>
-    <h1>File System Access API Demo for USENIX Submission</h1>
+    <header class="header">
+        <h1 class="header__title">File System Access API Demo for USENIX Submission</h1>
+    </header>
     <!-- Button to trigger the directory access -->
-    <button id="accessDirectory">Access Directory</button>
+    <button id="accessDirectory" class="button button--primary">Access Directory</button>
     <!-- Unordered list to display the file names -->
-    <ul id="fileList"></ul>
-    <!-- Include the JavaScript file -->
+    <ul id="fileList" class="file-list"></ul>
+    <!-- Link to external JavaScript file -->
     <script src="main.js"></script>
 </body>
 </html>
